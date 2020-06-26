@@ -54,5 +54,5 @@ def add_characters
      {:name => "Apothecary"}
      ]
      
-     return epic_tragedy[:]
+     return epic_tragedy
 end
