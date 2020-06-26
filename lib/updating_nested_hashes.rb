@@ -49,10 +49,10 @@ def add_characters
       }
    }
    
-    assigned = epic_tragedy[:additional_cahracters] = [
+     epic_tragedy[:additional_cahracters] = [
      {:name => "Prince Escalus"},
      {:name => "Apothecary"}
      ]
      
-     return assigned
+     return epic_tragedy[:]
 end
