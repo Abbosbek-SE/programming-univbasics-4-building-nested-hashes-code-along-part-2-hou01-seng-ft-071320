@@ -22,7 +22,9 @@ def update_status
    
    def update_status(hash)
      if update_status[hash]
-       return hash[:]
+       hash[:montague][:hero][:status] = "dead"
+       hash[:capulet][:heroine][:status] = "dead"
+       return hash
   end
 
  
