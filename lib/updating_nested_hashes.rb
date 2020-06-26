@@ -20,8 +20,8 @@ def update_status
       }
    }
    
-   def update_status(hash)
-     if update_status[hash]
+   def update_status(epic_tragedy)
+     if update_status[epic_tragedy]
        hash[:montague][:hero][:status] = "dead"
        hash[:capulet][:heroine][:status] = "dead"
        return hash
