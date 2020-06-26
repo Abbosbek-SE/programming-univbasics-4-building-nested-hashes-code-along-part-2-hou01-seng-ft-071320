@@ -23,9 +23,8 @@ def update_status
         if epic_tragedy 
        epic_tragedy[:montague][:hero][:status] = "dead"
        epic_tragedy[:capulet][:heroine][:status] = "dead"
-       return hash
      end
-    
+    return epic_tragedy
 end
 
 def add_characters
