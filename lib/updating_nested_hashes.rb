@@ -20,8 +20,9 @@ def update_status
       }
    }
    
-   def update_status
-     
+   def update_status(hash)
+     if update_status[hash]
+       return hash[:]
   end
 
  
