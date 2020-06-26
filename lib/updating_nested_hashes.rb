@@ -25,6 +25,7 @@ def update_status
        hash[:montague][:hero][:status] = "dead"
        hash[:capulet][:heroine][:status] = "dead"
        return hash
+     end
   end
 
  
